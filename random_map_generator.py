@@ -2,7 +2,6 @@ from cmu_graphics import *
 from PIL import Image
 import random, copy
 
-# **INTUITION ON HOW TO GENERATE RANDOM PATHS FROM CHATGPT, BUT CODE IS MINE**
 # generates a path with at least 35 cells and 3 steps in each dir before turning
 def generateRandomPath(app, minCells = 35, minSteps = 3):
     # chooses a random edge of the screen for path to start on
